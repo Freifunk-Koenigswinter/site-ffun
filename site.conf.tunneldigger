@@ -3,7 +3,7 @@
 -- http://gluon.readthedocs.org/ for details.
 {
   -- Used for generated hostnames, e.g. freifunk-abcdef123456. (optional)
-  hostname_prefix = 'ffkw-',
+  hostname_prefix = 'ffun-',
 
   -- Name of the community.
   site_name = 'Freifunk Koenigswinter',
@@ -43,7 +43,7 @@
 
     -- ESSID used for client network.
     ap = {
-        ssid = 'freifunk-koenigswinter.de',
+        ssid = 'freifunk-unkel.de',
     },
   mesh = {
     id = '02:d1:14:37:fd:49',
@@ -60,7 +60,7 @@
     basic_rate = {6000, 9000, 18000, 36000, 54000},
 
     ap = {
-        ssid = 'freifunk-koenigswinter.de',
+        ssid = 'freifunk-unkel.de',
     },
   mesh = {
     id = '02:d1:14:37:fd:49',
